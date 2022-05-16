@@ -1,0 +1,605 @@
+body {
+    background-color:  #F3BF46;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 105px;
+    height: 75px;
+    margin-right: auto;
+}
+
+.next {
+    text-decoration: none;
+    color: #111111;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px ;
+}
+ .next:hover {
+   background-color: #111111;
+   color: white;
+} 
+.font {
+    font-weight: bolder;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.oneBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 122px; 
+}
+.twoBlock {
+    margin-right: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: left;
+    line-height: 60px;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-size: 22px;
+    color: #4f4f4f;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 680px;
+    height: 540px;
+    box-shadow: 20px 15px 13px rgba(0, 0, 0, 0.25);
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+#button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E82E2E;
+    font-size: 30px;
+    width: 357px;
+    height: 87px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer{
+   display: flex; 
+    justify-content: center;
+    background-color: #111111;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.sosial {
+    width: 48px;
+    height: 48px;
+}
+.one {
+    padding: 10px;
+}
+
+.container-cart {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    background-color: thistle;
+    margin: 20px;
+}
+.picture {
+    width: 270px;
+    height: 400px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+.btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E82E2E;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.where {
+    color: #111111;
+    font-size: 30px;
+}
+p {
+    font-size: 25px;
+}
+.map-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+.map-picture {
+    width: 650px;
+    height: 450px;
+}
+.msj {
+    display: flex;
+    justify-content: space-evenly;
+}
+#input {
+    padding: 10px  ;
+    width: 420px;
+    background-color: #C4C4C4;
+    margin: 5px;
+    border: none;
+}
+label {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin: 5px;
+}
+
+.send {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E82E2E;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 10px 150px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+h2 {
+    font-weight: bold;
+}
+
+@media all and (max-width: 1024px) {
+    .logo {
+        width: 40px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        margin-top: 20px;
+    }
+    .oneBlock {
+        margin-left: 10px; 
+    }
+    .twoBlock {
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    img {
+        width: 500px;
+        height: auto;
+    }
+    #button {
+        font-family: 'Poppins', sans-serif;
+        background-color: #E82E2E;
+        font-size: 20px;
+        width: 250px;
+        height: 60px;
+    }
+    .cart {
+        width: 300px;
+        margin: 15px;
+    }
+    .map-picture {
+        width: 450px;
+        height: 300px;
+    }
+  
+}
+
+@media all and (max-width: 800px) {
+   
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    img {
+        width: 480px;
+        height: auto;
+    }
+    .next {
+        font-size: 20px;
+    }
+
+    .cart {
+        width: 240px;
+        margin: 10px;
+    }
+    .picture {
+        width: 230px;
+        height: 350px;
+    }
+    .map-picture {
+        width: 320px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 768px) {
+   
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    img {
+        width: 460px;
+        height: 350px;
+    }
+    .cart {
+        width: 230px;
+        margin: 10px;
+    }
+    .picture {
+        width: 210px;
+        height: 320px;
+    }
+}
+@media all and (max-width: 712px) {
+    img {
+        width: 420px;
+        height: 340px;
+    }
+    h1 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .cart {
+        width: 210px;
+        margin: 10px;
+    }
+    .picture {
+        width: 200px;
+        height: 300px;
+    }
+    .btn {
+    margin: 20px 0px;
+    padding: 10px 30px;
+    }
+    .map-picture {
+        width: 350px;
+        height: 240px;
+        margin-right: 20px;
+    }
+    .where {
+        font-size: 25px;
+        margin: 0px;
+    }
+    p {
+        font-size: 22px;
+        margin: 0px 0px 10px;
+    }
+    .next {
+        padding: 20px 12px;
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    img {
+        width: 300px;
+        height: 250px;
+    }
+    .cart {
+        margin: 10px 40px;
+    }
+    .map-picture {
+      
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .next {
+        padding: 15px 18px;
+        font-size: 24px;
+    }
+    .logo {
+        width: 60px;
+        height: 50px;
+    }
+    .where {
+        font-size: 22px;
+        margin: 0px;
+    }
+    p {
+        font-size: 20px;
+        margin: 0px 0px 7px;
+    }
+    h1 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .cart {
+        margin: 10px 25px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .oneBlock {
+        align-items: center;
+        text-align: center;
+    }
+    .sosial {
+        width: 35px;
+        height: 35px;
+    }
+    label {
+        font-size: 18px;
+    }
+    #input {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .map-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .next {
+        padding: 14px ;
+        font-size: 22px;
+    }
+    .cart {
+        width: 185px;
+        margin: 5px;
+    }
+    .picture {
+        width: 180px;
+        height: 260px;
+    }
+    .map-picture {
+        height: 240px;
+    }
+    .where {
+        margin-top: 15px;
+    }
+    #input {
+        width: 250px;
+    }
+    .send {
+        padding: 10px 130px;
+    }
+    
+}
+@media all and (max-width: 384px) {
+    .next {
+        padding: 12px;
+    }
+    .map-picture {
+        width: 320px;
+        height: 220px;
+    }
+    .cart {
+        width: 170px;
+        margin: 5px;
+    }
+    .picture {
+        width: 160px;
+        height: 260px;
+    }
+    .btn {
+        font-size: 18px;
+    padding: 7px 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    label {
+        font-size: 16px;
+    }
+    #input {
+        width: 230px;
+    }
+ }
+ @media all and (max-width: 375px) {
+    .next {
+        padding: 10px ;
+        font-size: 22px;
+    }
+    .cart {
+        width: 170px;
+        margin: 3px;
+    }
+    .picture {
+        height: 240px;
+    }
+    .map-picture {
+        width: 300px;
+        height: 200px;
+    }
+    .send {
+        font-size: 18px;
+    }
+    #input {
+        width: 220px;
+    }
+ }
+@media all and (max-width: 360px) {
+    .next {
+       font-size: 18px;
+    }
+    .logo {
+        width: 50px;
+        height: 44px;
+    }
+    .cart {
+        width: 160px;
+        margin: 5px;
+    }
+    .picture {
+        width: 150px;
+        height: 230px;
+    }
+    .btn {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .map-picture {
+        width: 270px;
+        height: 160px;
+    }
+    .where {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #input {
+        width: 200px;
+        padding: 5px;
+    }
+    .send {
+        padding: 8px 100px;
+    }
+    .sosial {
+        width: 27px;
+        height: 27px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .next {
+        padding: 10px ;
+    }
+    .cart {
+        width: 145px;
+        margin: 3px;
+    }
+    .picture {
+        width: 135px;
+        height: 220px;
+    }
+    .map-picture {
+        width: 250px;
+        height: 150px;
+    }
+    #input {
+        width: 180px;
+    }
+    .send {
+        padding: 8px 80px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    .next {
+        padding: 5px ;
+    }
+    .cart {
+        width: 128px;
+        margin: 2px;
+    }
+    .picture {
+        width: 120px;
+        height: 180px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .logo {
+        width: 40px;
+        height: 35px;
+        margin: 10px 0px 0px 10px;
+    }
+    .map-picture {
+        width: 210px;
+        height: 120px;
+    }
+    #input {
+        width: 160px;
+        margin: 3px;
+    }
+    .send {
+        padding: 8px 80px;
+    }
+    .where {
+        font-size: 18px;
+    }
+    p, h2 {
+        font-size: 16px;
+    }
+    label {
+        font-size: 14px;
+        margin: 3px;
+    }
+}
